@@ -1,0 +1,27 @@
+STEVE GUTFREUND - 342873791
+YOEL JASNER - 204380992
+
+First of all you'll need to download the datasets, it can be downloaded from the site: https://nlp.stanford.edu/projects/snli/
+Extract the downloaded files s.t. all the data files are placed in the same folder as our code.
+
+Next, you should download the pretrained vectors of Glove, it can be found on the site: https://nlp.stanford.edu/projects/glove/
+Extract the downloaded files s.t. the the file glove.840B.300D.txt is placed in the same folder as our code.
+
+If the above is done correctly, you should have a folder containing:
+	- my_glove_version.py
+	- reduce_sizes.py
+	- BiLSTM_max_pooling.py
+	- stacked_BiLSTM.py
+	- snli_1.0_train.jsonll
+	- snli_1.0_dev.jsonll
+	- snli_1.0_test.jsonll
+	- glove.840B.300D.txt
+	
+Now, first we'll creater a shorter version of the pretrained vectors.
+	Run the following: python my_glove_version.py
+This should create a file: pretrained_vectors.txt
+
+And now we can run our model:
+	python BiLSTM_max_pooling.py
+
+(in order to run the model on the second paper, run: python stacked_BiLSTM.py)

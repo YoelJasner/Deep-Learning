@@ -1,0 +1,52 @@
+Yoel Jasner - 204380992
+Steve Gutfreund - 342873791
+################################################################################################################
+PART 1
+
+While unzipping the zip folder please make sure you get three folders (amongst some pdf files): src, ner and pos
+The working directory should be the folder containing these 3.
+
+In order to run the code you will need to provide two parameters:
+	1) indicates the test number (in our case test1)
+	2) the data we are modeling (pos/ner)
+An example for a correct command:
+	python src/tagger1.py test1 pos
+	
+Relevant files:
+1. tagger1.py (main code, training the model happens here).
+2. utils.py (preprocessing the data, creating windows etc.).
+################################################################################################################
+PART 3:
+
+While unzipping the zip folder please make sure you get three folders (amongst some pdf files): src, ner and pos
+The working directory should be the folder containing these 3.
+
+In order to run the code you will need to provide three parameters.
+	1) indicates the test number (in our case test3)
+	2) the data we are modeling (pos/ner)
+	3) flag indicating we are willing to use pre-trained embeddings (pre)
+An example for a correct command:
+	python src/tagger1.py test3 pos pre
+	
+Relevant files:
+1. tagger1.py (main code, training the model happens here).
+2. utils.py (preprocessing the data, creating windows etc.).
+################################################################################################################
+PART 4:
+
+While unzipping the zip folder please make sure you get three folders (amongst some pdf files): src, ner and pos
+The working directory should be the folder containing these 3.
+
+In order to run the code you will need to provide at least three parameters and no more than four.
+	1) indicates the test number (in our case test4)
+	2) the data we are modeling (pos/ner)
+	3) flag indicating we are willing to use sub-words units (sub)
+	4) flag indicating we are willing to use pre-trained embeddings (pre)
+	(the 4th parameter is not obligatory, it's your choice)
+An example for a correct command:
+	python src/tagger1.py test4 pos sub pre
+	
+Relevant files:
+1. tagger1.py (main code, training the model happens here).
+2. utils.py (preprocessing the data, creating windows etc.).
+################################################################################################################

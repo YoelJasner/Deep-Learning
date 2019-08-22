@@ -1,0 +1,17 @@
+test:			test4
+task:			NER
+pre-trained embeddings:	True
+sub-words:		True
+epochs:			15
+learning rate:		0.01
+window size:		5
+hidden layer:		150
+
+Training...
+This may take a while
+
++---+------------+------------+------------+--------+
+| i | train_loss |  dev_loss  |  dev_accu  |  time  |
++---+------------+------------+------------+--------+
+| 1 |  0.313837  |  0.252624  |  63.39855  |  33.60 |
++---+------------+------------+------------+--------+
