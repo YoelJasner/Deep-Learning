@@ -1,8 +1,5 @@
 import numpy as np
 
-STUDENT={'name': 'STEVE GUTFREUND_YOEL JASNER',
-         'ID': '342873791_204380992'}
-
 def softmax(x):
     """
     Compute the softmax vector.
