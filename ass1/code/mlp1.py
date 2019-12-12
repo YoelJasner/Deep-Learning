@@ -1,7 +1,6 @@
 import numpy as np
 
-STUDENT={'name': 'STEVE GUTFREUND_YOEL JASNER',
-         'ID': '342873791_204380992'}
+
 
 def tanh(x):    
     return (np.exp(x) - np.exp(-1 * x)) / (np.exp(x) + np.exp(-1 * x))
