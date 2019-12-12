@@ -3,8 +3,6 @@ import numpy as np
 import mlp1 as mlp
 import xor_data as xr
 
-STUDENT={'name': 'STEVE GUTFREUND_YOEL JASNER',
-         'ID': '342873791_204380992'}
 
 def accuracy_on_dataset(dataset, params):
     good = bad = 0.0
