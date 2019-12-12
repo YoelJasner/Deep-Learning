@@ -1,5 +1,4 @@
-STEVE GUTFREUND_YOEL JASNER
-342873791_204380992
+
 
 1.  Slightly better, with the loglinear model I can get up to maximum 85-86% and with the MLP I get around 85-87%.
 2.  With the loglinear model I get about ~68%.
