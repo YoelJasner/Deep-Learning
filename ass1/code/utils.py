@@ -1,9 +1,6 @@
 # This file provides code which you may or may not find helpful.
 # Use it if you want, or ignore it.
 
-STUDENT={'name': 'STEVE GUTFREUND_YOEL JASNER',
-         'ID': '342873791_204380992'}
-
 import random
 def read_data(fname):
     data = []
